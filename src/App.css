@@ -1,0 +1,9 @@
+.App-header {
+  background: #000000 url("./back.jpeg") no-repeat right top fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div-Border{
+    width: 297px;
+    height: 385px;
+
+}
+
+.Vivo{
+    background-color: rgb(2, 71, 2);
+    width: 250px;
+    min-height: 340px;
+    max-height: 340px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+
+    padding: 5px;
+
+    border-radius: 32px;
+}
+
+.Vivo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 5px solid darkgray;
+    font-weight: 900;
+  }  
+
+.Morto{
+    background-color: rgb(139, 4, 4);
+    width: 250px;
+    min-height: 340px;
+    max-height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Chewy', cursive;
+
+    padding: 5px;
+
+    border-radius: 32px;
+}
+
+.Morto:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 5px solid darkgray;
+    font-weight: 900;
+  }
+
+h2{
+    font-size: 30px;
+    margin-top: 0;
+    color: rgb(243, 223, 197);
+}
+
+p{
+    font-size: 15px;
+    color: rgb(243, 223, 197);
+}
+
+img{
+    width: 150px;
+    border-radius: 32px;
+}
